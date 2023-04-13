@@ -20,5 +20,14 @@ model = train(
     print_every=1)
  ```
  Here, parameters as optimizer, learning rate, scheduler, path to save best model and early stopping epoch patience can be set.
+ 4. Before running the cells make sure to execute following two commands:
+ ```
+ !pip install wandb
+ !wandb login
+ ```
+ And change the project name and entity name accordingly inside training function as:
+ ```
+ wandb.init(project="CS6910-Assignment-2", entity="purvam", magic=True)
+ ```
  
  
