@@ -19,7 +19,8 @@ model = train(
     n_epochs=30,
     print_every=1)
  ```
- Here, parameters as optimizer, learning rate, scheduler, path to save best model and early stopping epoch patience can be set.
+ Here, parameters as optimizer, learning rate, scheduler, path to save best model and early stopping epoch patience can be set.<br>
+ 
  4. Before running the cells make sure to execute following two commands:
  ```
  !pip install wandb
